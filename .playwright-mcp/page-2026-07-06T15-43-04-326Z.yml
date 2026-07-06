@@ -1,0 +1,284 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FMarkDeveloperTest%2FNorthstar-SaaS-beta%2Factions
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Factions%2Findex&source=header-repo&source_repo=MarkDeveloperTest%2FNorthstar-SaaS-beta
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "MarkDeveloperTest" [ref=e70] [cursor=pointer]:
+            - /url: /MarkDeveloperTest
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "Northstar-SaaS-beta" [ref=e73] [cursor=pointer]:
+              - /url: /MarkDeveloperTest/Northstar-SaaS-beta
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FMarkDeveloperTest%2FNorthstar-SaaS-beta
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 0" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FMarkDeveloperTest%2FNorthstar-SaaS-beta
+                - img [ref=e82]
+                - text: Fork
+                - generic "0" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FMarkDeveloperTest%2FNorthstar-SaaS-beta
+                - img [ref=e88]
+                - text: Star
+                - generic "0 users starred this repository" [ref=e90]: "0"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /MarkDeveloperTest/Northstar-SaaS-beta
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues" [ref=e99] [cursor=pointer]:
+              - /url: /MarkDeveloperTest/Northstar-SaaS-beta/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+          - listitem [ref=e104]:
+            - link "Pull requests" [ref=e105] [cursor=pointer]:
+              - /url: /MarkDeveloperTest/Northstar-SaaS-beta/pulls
+              - img [ref=e106]
+              - generic [ref=e108]: Pull requests
+          - listitem [ref=e109]:
+            - link "Actions" [ref=e110] [cursor=pointer]:
+              - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions
+              - img [ref=e111]
+              - generic [ref=e113]: Actions
+          - listitem [ref=e114]:
+            - link "Projects" [ref=e115] [cursor=pointer]:
+              - /url: /MarkDeveloperTest/Northstar-SaaS-beta/projects
+              - img [ref=e116]
+              - generic [ref=e118]: Projects
+          - listitem [ref=e119]:
+            - link "Security and quality" [ref=e120] [cursor=pointer]:
+              - /url: /MarkDeveloperTest/Northstar-SaaS-beta/security
+              - img [ref=e121]
+              - generic [ref=e123]: Security and quality
+          - listitem [ref=e124]:
+            - link "Insights" [ref=e125] [cursor=pointer]:
+              - /url: /MarkDeveloperTest/Northstar-SaaS-beta/pulse
+              - img [ref=e126]
+              - generic [ref=e128]: Insights
+    - generic [ref=e340]:
+      - generic [ref=e343]:
+        - link "Deploy to GitHub Pages" [ref=e346] [cursor=pointer]:
+          - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/workflows/deploy.yml
+          - img [ref=e347]
+          - generic [ref=e349]: Deploy to GitHub Pages
+        - generic [ref=e350]:
+          - generic [ref=e351]:
+            - img "failed:" [ref=e355]
+            - 'heading "Deploy site to GitHub Pages #1" [level=1] [ref=e357]':
+              - generic [ref=e358]: "Deploy site to GitHub Pages #1"
+          - link "Sign in to view logs" [ref=e361] [cursor=pointer]:
+            - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FMarkDeveloperTest%2FNorthstar-SaaS-beta%2Factions%2Fruns%2F28803945616
+      - generic [ref=e362]:
+        - navigation "Workflow run" [ref=e368]:
+          - list [ref=e369]:
+            - listitem [ref=e370]:
+              - link "Summary" [ref=e371] [cursor=pointer]:
+                - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/runs/28803945616
+                - generic:
+                  - img
+                - generic [ref=e373]: Summary
+            - generic [ref=e374]:
+              - heading "All jobs" [level=4] [ref=e375]
+              - button "Filter by job status" [ref=e376] [cursor=pointer]:
+                - img [ref=e377]
+            - listitem [ref=e379]
+            - listitem [ref=e380]:
+              - list [ref=e381]:
+                - listitem [ref=e382]:
+                  - link "build" [ref=e383] [cursor=pointer]:
+                    - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/runs/28803945616/job/85414420131
+                    - generic:
+                      - img
+                    - generic [ref=e385]: build
+                - listitem [ref=e386]:
+                  - link "deploy" [ref=e387] [cursor=pointer]:
+                    - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/runs/28803945616/job/85414457137
+                    - generic:
+                      - img
+                    - generic [ref=e389]: deploy
+            - listitem [ref=e390]
+            - listitem [ref=e391]:
+              - heading "Run details" [level=3] [ref=e393]
+              - list "Run details" [ref=e394]:
+                - listitem [ref=e395]:
+                  - link "Usage" [ref=e396] [cursor=pointer]:
+                    - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/runs/28803945616/usage
+                    - generic:
+                      - img
+                    - generic [ref=e398]: Usage
+                - listitem [ref=e399]:
+                  - link "Workflow file" [ref=e400] [cursor=pointer]:
+                    - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/runs/28803945616/workflow
+                    - generic:
+                      - img
+                    - generic [ref=e402]: Workflow file
+        - generic [ref=e404]:
+          - region "Workflow run summary" [ref=e405]:
+            - generic [ref=e406]:
+              - generic [ref=e407]:
+                - generic [ref=e408]: Triggered via push July 6, 2026 15:42now
+                - generic [ref=e409]:
+                  - link "@MarkDeveloperTest MarkDeveloperTest" [ref=e410] [cursor=pointer]:
+                    - /url: /MarkDeveloperTest
+                    - img "@MarkDeveloperTest" [ref=e411]
+                    - text: MarkDeveloperTest
+                  - generic [ref=e412]:
+                    - generic [ref=e413]: pushed
+                    - link "07a2256" [ref=e414] [cursor=pointer]:
+                      - /url: /MarkDeveloperTest/Northstar-SaaS-beta/commit/07a225679aa057574aeb980a081965d640875e05
+                      - img [ref=e415]
+                      - text: 07a2256
+                  - link "main" [ref=e417] [cursor=pointer]:
+                    - /url: /MarkDeveloperTest/Northstar-SaaS-beta/tree/refs/heads/main
+              - generic [ref=e418]:
+                - generic [ref=e419]: Status
+                - text: Failure
+              - generic [ref=e420]:
+                - generic [ref=e421]: Total duration
+                - link "11s" [ref=e422] [cursor=pointer]:
+                  - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/runs/28803945616/usage
+              - generic [ref=e423]:
+                - generic [ref=e424]: Artifacts
+                - text: –
+          - region "Workflow run graph" [ref=e425]:
+            - generic [ref=e427]:
+              - generic [ref=e429]:
+                - heading "deploy.yml" [level=2] [ref=e430]:
+                  - link "deploy.yml" [ref=e431] [cursor=pointer]:
+                    - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/runs/28803945616/workflow
+                - generic [ref=e432]: "on: push"
+              - generic [ref=e434]:
+                - generic [ref=e435]:
+                  - img
+                  - img
+                  - 'link "failed: build 6s" [ref=e439] [cursor=pointer]':
+                    - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/runs/28803945616/job/85414420131
+                    - generic [ref=e441]:
+                      - img "failed:" [ref=e443]
+                      - generic [ref=e446]: build
+                      - generic [ref=e447]: 6s
+                  - 'link "skipped: deploy" [ref=e452] [cursor=pointer]':
+                    - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/runs/28803945616/job/85414457137
+                    - generic [ref=e454]:
+                      - img "skipped:" [ref=e456]
+                      - generic [ref=e459]: deploy
+                - generic [ref=e461]:
+                  - paragraph [ref=e462]: Oh hello! Nice to see you.
+                  - paragraph [ref=e463]:
+                    - text: Made with ❤️ by
+                    - link [ref=e464] [cursor=pointer]:
+                      - /url: https://actions.github.io/humans.txt
+                      - text: humans.txt
+              - generic [ref=e465]:
+                - button "Fit to window" [disabled] [ref=e466]:
+                  - img
+                - generic [ref=e467]:
+                  - button "Zoom out" [disabled] [ref=e469]:
+                    - img
+                  - button "Zoom in" [disabled] [ref=e471]:
+                    - img
+          - region "Annotations" [ref=e472]:
+            - generic [ref=e473]:
+              - generic [ref=e475]:
+                - heading "Annotations" [level=2] [ref=e476]
+                - generic [ref=e477]: 2 errors and 1 warning
+              - table [ref=e478]:
+                - rowgroup [ref=e479]:
+                  - 'row "build HttpError: Not Found - https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site" [ref=e480]':
+                    - 'cell "build HttpError: Not Found - https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site" [ref=e481]':
+                      - generic [ref=e482]:
+                        - img [ref=e484]
+                        - generic [ref=e486]:
+                          - link "build" [ref=e487] [cursor=pointer]:
+                            - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/runs/28803945616/job/85414420131#step:4:11
+                            - strong [ref=e488]: build
+                          - generic [ref=e491]:
+                            - text: "HttpError: Not Found -"
+                            - link "https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site" [ref=e492] [cursor=pointer]:
+                              - /url: https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site
+                  - 'row "HttpError: /home/runner/work/_actions/actions/configure-pages/v5/node_modules/@octokit/request/dist-node/index.js#L124 Get Pages site failed. Please verify that the repository has Pages enabled and configured to build using GitHub Actions, or consider exploring the `enablement` parameter for this action. Error: Not Found - https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site Show more" [ref=e493]':
+                    - 'cell "HttpError: /home/runner/work/_actions/actions/configure-pages/v5/node_modules/@octokit/request/dist-node/index.js#L124 Get Pages site failed. Please verify that the repository has Pages enabled and configured to build using GitHub Actions, or consider exploring the `enablement` parameter for this action. Error: Not Found - https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site Show more" [ref=e494]':
+                      - generic [ref=e495]:
+                        - img [ref=e497]
+                        - generic [ref=e499]:
+                          - 'link "HttpError: /home/runner/work/_actions/actions/configure-pages/v5/node_modules/@octokit/request/dist-node/index.js#L124" [ref=e500] [cursor=pointer]':
+                            - /url: /MarkDeveloperTest/Northstar-SaaS-beta/commit/07a225679aa057574aeb980a081965d640875e05#annotation_63028450951
+                            - strong [ref=e501]: "HttpError:"
+                            - text: /home/runner/work/_actions/actions/configure-pages/v5/node_modules/@octokit/request/dist-node/index.js#L124
+                          - generic [ref=e502]:
+                            - generic [ref=e504]:
+                              - text: "Get Pages site failed. Please verify that the repository has Pages enabled and configured to build using GitHub Actions, or consider exploring the `enablement` parameter for this action. Error: Not Found -"
+                              - link "https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site" [ref=e505] [cursor=pointer]:
+                                - /url: https://docs.github.com/rest/pages/pages#get-a-apiname-pages-site
+                            - button "Show more" [ref=e506] [cursor=pointer]
+                  - 'row "build Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/configure-pages@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/ Show more" [ref=e507]':
+                    - 'cell "build Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/configure-pages@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/ Show more" [ref=e508]':
+                      - generic [ref=e509]:
+                        - img [ref=e511]
+                        - generic [ref=e513]:
+                          - link "build" [ref=e514] [cursor=pointer]:
+                            - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/runs/28803945616/job/85414420131#step:15:2
+                            - strong [ref=e515]: build
+                          - generic [ref=e516]:
+                            - generic [ref=e518]:
+                              - text: "Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/configure-pages@v5. For more information see:"
+                              - link "https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/" [ref=e519] [cursor=pointer]:
+                                - /url: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+                            - button "Show more" [ref=e520] [cursor=pointer]

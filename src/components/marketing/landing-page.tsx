@@ -361,13 +361,13 @@ function HeroProductPreview() {
               sizes="270px"
             />
           </div>
-          <div className="-mt-8 ml-4">
+          <div className="relative z-10 -mt-8 ml-4">
             <Image
               src={withBasePath("/assets/generated/alex-avatar.png")}
               alt="Alex Morgan"
               width={64}
               height={64}
-              className="size-16 rounded-full border-4 border-white object-cover"
+              className="relative z-10 size-16 rounded-full border-4 border-white object-cover"
             />
           </div>
           <h3 className="mt-2 text-lg font-semibold">Alex Morgan</h3>

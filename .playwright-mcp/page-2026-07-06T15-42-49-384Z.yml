@@ -1,0 +1,286 @@
+- generic [ref=e2]:
+  - generic [ref=e3]:
+    - link "Skip to content" [ref=e4] [cursor=pointer]:
+      - /url: "#start-of-content"
+    - banner [ref=e6]:
+      - heading "Navigation Menu" [level=2] [ref=e7]
+      - generic [ref=e8]:
+        - link "Homepage" [ref=e10] [cursor=pointer]:
+          - /url: /
+          - img [ref=e11]
+        - generic [ref=e13]:
+          - navigation "Global" [ref=e16]:
+            - list [ref=e17]:
+              - listitem [ref=e18]:
+                - button "Platform" [ref=e20] [cursor=pointer]:
+                  - text: Platform
+                  - img [ref=e21]
+              - listitem [ref=e23]:
+                - button "Solutions" [ref=e25] [cursor=pointer]:
+                  - text: Solutions
+                  - img [ref=e26]
+              - listitem [ref=e28]:
+                - button "Resources" [ref=e30] [cursor=pointer]:
+                  - text: Resources
+                  - img [ref=e31]
+              - listitem [ref=e33]:
+                - button "Open Source" [ref=e35] [cursor=pointer]:
+                  - text: Open Source
+                  - img [ref=e36]
+              - listitem [ref=e38]:
+                - button "Enterprise" [ref=e40] [cursor=pointer]:
+                  - text: Enterprise
+                  - img [ref=e41]
+              - listitem [ref=e43]:
+                - link "Pricing" [ref=e44] [cursor=pointer]:
+                  - /url: https://github.com/pricing
+                  - generic [ref=e45]: Pricing
+          - generic [ref=e46]:
+            - button "Search or jump to…" [ref=e49] [cursor=pointer]:
+              - img [ref=e51]
+            - link "Sign in" [ref=e54] [cursor=pointer]:
+              - /url: /login?return_to=https%3A%2F%2Fgithub.com%2FMarkDeveloperTest%2FNorthstar-SaaS-beta%2Factions
+            - link "Sign up" [ref=e55] [cursor=pointer]:
+              - /url: /signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F%3Cuser-name%3E%2F%3Crepo-name%3E%2Factions%2Findex&source=header-repo&source_repo=MarkDeveloperTest%2FNorthstar-SaaS-beta
+            - button "Appearance settings" [ref=e58] [cursor=pointer]:
+              - img
+  - main [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e66]:
+          - img [ref=e67]
+          - link "MarkDeveloperTest" [ref=e70] [cursor=pointer]:
+            - /url: /MarkDeveloperTest
+          - generic [ref=e71]: /
+          - strong [ref=e72]:
+            - link "Northstar-SaaS-beta" [ref=e73] [cursor=pointer]:
+              - /url: /MarkDeveloperTest/Northstar-SaaS-beta
+          - generic [ref=e74]: Public
+        - generic [ref=e75]:
+          - list:
+            - listitem [ref=e76]:
+              - link "You must be signed in to change notification settings" [ref=e77] [cursor=pointer]:
+                - /url: /login?return_to=%2FMarkDeveloperTest%2FNorthstar-SaaS-beta
+                - img [ref=e78]
+                - text: Notifications
+            - listitem [ref=e80]:
+              - link "Fork 0" [ref=e81] [cursor=pointer]:
+                - /url: /login?return_to=%2FMarkDeveloperTest%2FNorthstar-SaaS-beta
+                - img [ref=e82]
+                - text: Fork
+                - generic "0" [ref=e84]
+            - listitem [ref=e85]:
+              - link "You must be signed in to star a repository" [ref=e87] [cursor=pointer]:
+                - /url: /login?return_to=%2FMarkDeveloperTest%2FNorthstar-SaaS-beta
+                - img [ref=e88]
+                - text: Star
+                - generic "0 users starred this repository" [ref=e90]: "0"
+      - navigation "Repository" [ref=e91]:
+        - list [ref=e92]:
+          - listitem [ref=e93]:
+            - link "Code" [ref=e94] [cursor=pointer]:
+              - /url: /MarkDeveloperTest/Northstar-SaaS-beta
+              - img [ref=e95]
+              - generic [ref=e97]: Code
+          - listitem [ref=e98]:
+            - link "Issues" [ref=e99] [cursor=pointer]:
+              - /url: /MarkDeveloperTest/Northstar-SaaS-beta/issues
+              - img [ref=e100]
+              - generic [ref=e103]: Issues
+          - listitem [ref=e104]:
+            - link "Pull requests" [ref=e105] [cursor=pointer]:
+              - /url: /MarkDeveloperTest/Northstar-SaaS-beta/pulls
+              - img [ref=e106]
+              - generic [ref=e108]: Pull requests
+          - listitem [ref=e109]:
+            - link "Actions" [ref=e110] [cursor=pointer]:
+              - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions
+              - img [ref=e111]
+              - generic [ref=e113]: Actions
+          - listitem [ref=e114]:
+            - link "Projects" [ref=e115] [cursor=pointer]:
+              - /url: /MarkDeveloperTest/Northstar-SaaS-beta/projects
+              - img [ref=e116]
+              - generic [ref=e118]: Projects
+          - listitem [ref=e119]:
+            - link "Security and quality" [ref=e120] [cursor=pointer]:
+              - /url: /MarkDeveloperTest/Northstar-SaaS-beta/security
+              - img [ref=e121]
+              - generic [ref=e123]: Security and quality
+          - listitem [ref=e124]:
+            - link "Insights" [ref=e125] [cursor=pointer]:
+              - /url: /MarkDeveloperTest/Northstar-SaaS-beta/pulse
+              - img [ref=e126]
+              - generic [ref=e128]: Insights
+    - generic [ref=e130]:
+      - 'heading "Actions: MarkDeveloperTest/Northstar-SaaS-beta" [level=1] [ref=e131]'
+      - generic [ref=e134]:
+        - generic [ref=e135]:
+          - heading "Actions" [level=2] [ref=e137]
+          - navigation "Actions Workflows" [ref=e141]:
+            - list [ref=e143]:
+              - listitem [ref=e144]:
+                - link "All workflows" [ref=e145] [cursor=pointer]:
+                  - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions
+                  - generic [ref=e146]: All workflows
+              - listitem [ref=e147]
+              - listitem [ref=e148]:
+                - list "Workflows" [ref=e152]:
+                  - listitem [ref=e153]:
+                    - link "Dependabot Updates" [ref=e154] [cursor=pointer]:
+                      - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/workflows/dependabot/dependabot-updates
+                      - generic [ref=e155]: Dependabot Updates
+                  - listitem [ref=e156]:
+                    - link "Deploy to GitHub Pages" [ref=e157] [cursor=pointer]:
+                      - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/workflows/deploy.yml
+                      - generic [ref=e158]: Deploy to GitHub Pages
+                  - listitem [ref=e159]:
+                    - link "pages-build-deployment" [ref=e160] [cursor=pointer]:
+                      - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/workflows/pages/pages-build-deployment
+                      - generic [ref=e161]: pages-build-deployment
+              - listitem [ref=e162]
+              - listitem [ref=e163]:
+                - generic [ref=e166]:
+                  - heading "Management" [level=3] [ref=e168]
+                  - list "Management" [ref=e169]:
+                    - listitem [ref=e170]:
+                      - link "Caches" [ref=e171] [cursor=pointer]:
+                        - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/caches
+                        - generic:
+                          - img
+                        - generic [ref=e172]: Caches
+                    - listitem [ref=e173]:
+                      - link "Deployments" [ref=e174] [cursor=pointer]:
+                        - /url: /MarkDeveloperTest/Northstar-SaaS-beta/deployments
+                        - generic:
+                          - img
+                        - generic [ref=e175]: Deployments
+                        - generic:
+                          - img
+        - generic [ref=e178]:
+          - generic [ref=e179]:
+            - generic [ref=e180]:
+              - heading "All workflows" [level=2] [ref=e182]:
+                - generic [ref=e184]: All workflows
+              - search [ref=e188]:
+                - combobox "Filter workflow runs" [ref=e189]
+                - img
+            - generic [ref=e190]: Showing runs from all workflows
+          - generic [ref=e191]:
+            - generic [ref=e192]:
+              - strong [ref=e195]: 4 workflow runs
+              - generic [ref=e196]:
+                - button "Workflow" [ref=e200] [cursor=pointer]:
+                  - generic [ref=e202]: Workflow
+                  - generic:
+                    - img
+                - button "Event" [ref=e206] [cursor=pointer]:
+                  - generic [ref=e208]: Event
+                  - generic:
+                    - img
+                - button "Status" [ref=e212] [cursor=pointer]:
+                  - generic [ref=e214]: Status
+                  - generic:
+                    - img
+                - button "Branch" [ref=e218] [cursor=pointer]:
+                  - generic [ref=e220]: Branch
+                  - generic:
+                    - img
+                - button "Actor" [ref=e224] [cursor=pointer]:
+                  - generic [ref=e226]: Actor
+                  - generic:
+                    - img
+            - generic [ref=e227]:
+              - generic [ref=e229]:
+                - generic [ref=e230]:
+                  - 'link "currently running: Run 2 of Dependabot Updates. npm_and_yarn in /. for postcss - Update #1449760407" [ref=e231] [cursor=pointer]':
+                    - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/runs/28803951704
+                    - img "currently running:" [ref=e234]
+                    - generic [ref=e238]: "npm_and_yarn in /. for postcss - Update #1449760407"
+                  - generic [ref=e239]:
+                    - text: "Dependabot Updates #2:"
+                    - generic [ref=e240]:
+                      - text: by
+                      - link "dependabot" [ref=e241] [cursor=pointer]:
+                        - /url: /apps/dependabot
+                      - generic [ref=e242]: Bot
+                - link "main" [ref=e244] [cursor=pointer]:
+                  - /url: /MarkDeveloperTest/Northstar-SaaS-beta/tree/refs/heads/main
+                - generic [ref=e247]:
+                  - generic [ref=e248]:
+                    - img [ref=e250]
+                    - generic "Jul 6, 2026, 18:42 GMT+3" [ref=e252]: now
+                  - generic [ref=e253]:
+                    - img [ref=e254]
+                    - text: In progress
+              - generic [ref=e257]:
+                - generic [ref=e258]:
+                  - 'link "failed: Run 1 of Deploy to GitHub Pages. Deploy site to GitHub Pages" [ref=e259] [cursor=pointer]':
+                    - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/runs/28803945616
+                    - img "failed:" [ref=e261]
+                    - generic [ref=e263]: Deploy site to GitHub Pages
+                  - generic [ref=e264]:
+                    - text: "Deploy to GitHub Pages #1:"
+                    - generic [ref=e265]:
+                      - text: Commit
+                      - link "07a2256" [ref=e266] [cursor=pointer]:
+                        - /url: /MarkDeveloperTest/Northstar-SaaS-beta/commit/07a225679aa057574aeb980a081965d640875e05
+                      - text: pushed by
+                      - link "MarkDeveloperTest" [ref=e267] [cursor=pointer]:
+                        - /url: /MarkDeveloperTest
+                - link "main" [ref=e269] [cursor=pointer]:
+                  - /url: /MarkDeveloperTest/Northstar-SaaS-beta/tree/refs/heads/main
+                - generic [ref=e271]:
+                  - generic [ref=e272]:
+                    - generic [ref=e273]:
+                      - img [ref=e275]
+                      - generic "Jul 6, 2026, 18:42 GMT+3" [ref=e277]: now
+                    - generic [ref=e278]:
+                      - img "Run duration" [ref=e279]
+                      - text: 11s
+                  - group [ref=e282]:
+                    - generic "Show options" [ref=e283] [cursor=pointer]:
+                      - img "Show options" [ref=e284]
+              - generic [ref=e287]:
+                - generic [ref=e288]:
+                  - 'link "completed successfully: Run 1 of pages-build-deployment. pages build and deployment" [ref=e289] [cursor=pointer]':
+                    - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/runs/28803538447
+                    - img "completed successfully:" [ref=e291]
+                    - generic [ref=e293]: pages build and deployment
+                  - generic [ref=e294]:
+                    - text: "pages-build-deployment #1:"
+                    - generic [ref=e295]:
+                      - text: by
+                      - link "MarkDeveloperTest" [ref=e296] [cursor=pointer]:
+                        - /url: /MarkDeveloperTest
+                - link "main" [ref=e298] [cursor=pointer]:
+                  - /url: /MarkDeveloperTest/Northstar-SaaS-beta/tree/refs/heads/main
+                - generic [ref=e301]:
+                  - generic [ref=e302]:
+                    - img [ref=e304]
+                    - generic "Jul 6, 2026, 18:35 GMT+3" [ref=e306]: 6 minutes ago
+                  - generic [ref=e307]:
+                    - img "Run duration" [ref=e308]
+                    - text: 41s
+              - generic [ref=e311]:
+                - generic [ref=e312]:
+                  - 'link "completed successfully: Run 1 of Dependabot Updates. npm_and_yarn in /. for postcss - Update #1449748985" [ref=e313] [cursor=pointer]':
+                    - /url: /MarkDeveloperTest/Northstar-SaaS-beta/actions/runs/28803387459
+                    - img "completed successfully:" [ref=e315]
+                    - generic [ref=e317]: "npm_and_yarn in /. for postcss - Update #1449748985"
+                  - generic [ref=e318]:
+                    - text: "Dependabot Updates #1:"
+                    - generic [ref=e319]:
+                      - text: by
+                      - link "dependabot" [ref=e320] [cursor=pointer]:
+                        - /url: /apps/dependabot
+                      - generic [ref=e321]: Bot
+                - link "main" [ref=e323] [cursor=pointer]:
+                  - /url: /MarkDeveloperTest/Northstar-SaaS-beta/tree/refs/heads/main
+                - generic [ref=e326]:
+                  - generic [ref=e327]:
+                    - img [ref=e329]
+                    - generic "Jul 6, 2026, 18:33 GMT+3" [ref=e331]: 9 minutes ago
+                  - generic [ref=e332]:
+                    - img "Run duration" [ref=e333]
+                    - text: 1m 22s
