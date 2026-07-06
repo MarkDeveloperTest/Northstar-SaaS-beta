@@ -3,6 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { AppProviders } from "@/components/providers/app-providers";
 import "./globals.css";
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://northstar.example";
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -20,7 +22,7 @@ export const metadata: Metadata = {
   },
   description:
     "A premium SaaS platform that unifies CRM, lead management, analytics, and smart public profiles.",
-  metadataBase: new URL("https://northstar.example"),
+  metadataBase: new URL(siteUrl),
 };
 
 export default function RootLayout({

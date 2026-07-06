@@ -77,6 +77,7 @@ import {
   profileTabs,
   tasks,
 } from "@/data/mock";
+import { withBasePath } from "@/lib/base-path";
 import { cn, formatCurrency } from "@/lib/utils";
 import type { Deal, LinkItem, Task } from "@/types/domain";
 
@@ -183,7 +184,7 @@ function Sidebar({
 
       <button className="mb-4 flex items-center gap-2 rounded-lg border border-slate-200 bg-white p-2 text-left transition hover:bg-slate-50">
         <Avatar className="size-8">
-          <AvatarImage src="/assets/generated/alex-avatar.png" alt="Alex Morgan" />
+          <AvatarImage src={withBasePath("/assets/generated/alex-avatar.png")} alt="Alex Morgan" />
           <AvatarFallback>A</AvatarFallback>
         </Avatar>
         <span className="min-w-0 flex-1">
@@ -230,7 +231,7 @@ function Sidebar({
         </Card>
         <div className="flex items-center gap-2 rounded-lg border border-slate-200 p-2">
           <Avatar className="size-7">
-            <AvatarImage src="/assets/generated/alex-avatar.png" alt="Alex Morgan" />
+            <AvatarImage src={withBasePath("/assets/generated/alex-avatar.png")} alt="Alex Morgan" />
             <AvatarFallback>AM</AvatarFallback>
           </Avatar>
           <div className="min-w-0 flex-1">
@@ -418,7 +419,7 @@ function ProfilePreview({
     <Card className="mx-auto max-w-[350px] overflow-hidden rounded-xl shadow-xl shadow-slate-950/10">
       <div className="relative h-28">
         <Image
-          src="/assets/generated/profile-cover.png"
+          src={withBasePath("/assets/generated/profile-cover.png")}
           alt="Coastal profile cover"
           fill
           className="object-cover"
@@ -436,7 +437,7 @@ function ProfilePreview({
       <div className="relative px-5 pb-5 text-center">
         <div className="-mt-12 inline-flex rounded-full border-4 border-white bg-white shadow-md">
           <Image
-            src="/assets/generated/alex-avatar.png"
+            src={withBasePath("/assets/generated/alex-avatar.png")}
             alt="Alex Morgan"
             width={76}
             height={76}
@@ -658,7 +659,7 @@ function ThemeEditor({
           </div>
           <div className="flex items-center gap-3">
             <Image
-              src="/assets/generated/profile-cover.png"
+              src={withBasePath("/assets/generated/profile-cover.png")}
               alt="Current cover"
               width={90}
               height={46}

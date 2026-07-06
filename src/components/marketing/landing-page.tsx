@@ -25,6 +25,7 @@ import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Progress } from "@/components/ui/progress";
 import { analyticsSeries, linkItems, testimonials } from "@/data/mock";
+import { withBasePath } from "@/lib/base-path";
 import {
   CartesianGrid,
   Line,
@@ -353,7 +354,7 @@ function HeroProductPreview() {
         <div className="border-b border-slate-200 p-4 lg:border-b-0 lg:border-r">
           <div className="relative h-28 overflow-hidden rounded-xl">
             <Image
-              src="/assets/generated/profile-cover.png"
+              src={withBasePath("/assets/generated/profile-cover.png")}
               alt="Profile cover"
               fill
               className="object-cover"
@@ -362,7 +363,7 @@ function HeroProductPreview() {
           </div>
           <div className="-mt-8 ml-4">
             <Image
-              src="/assets/generated/alex-avatar.png"
+              src={withBasePath("/assets/generated/alex-avatar.png")}
               alt="Alex Morgan"
               width={64}
               height={64}

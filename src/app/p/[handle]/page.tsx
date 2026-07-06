@@ -6,6 +6,12 @@ export const metadata: Metadata = {
   description: "Published Northstar profile for Alex Morgan.",
 };
 
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return [{ handle: "alex" }];
+}
+
 export default function PublicProfilePage() {
   return <PublicProfile />;
 }

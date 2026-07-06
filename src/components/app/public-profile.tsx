@@ -23,6 +23,7 @@ import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { linkItems } from "@/data/mock";
+import { withBasePath } from "@/lib/base-path";
 
 export function PublicProfile() {
   const [sent, setSent] = useState(false);
@@ -31,7 +32,7 @@ export function PublicProfile() {
     <main className="min-h-screen bg-slate-950 text-white">
       <section className="relative overflow-hidden">
         <Image
-          src="/assets/generated/profile-cover.png"
+          src={withBasePath("/assets/generated/profile-cover.png")}
           alt="Coastal cover"
           fill
           className="object-cover opacity-55"
@@ -53,7 +54,7 @@ export function PublicProfile() {
             <div>
               <div className="inline-flex rounded-full border-4 border-white/20 bg-white/15 p-1 backdrop-blur">
                 <Image
-                  src="/assets/generated/alex-avatar.png"
+                  src={withBasePath("/assets/generated/alex-avatar.png")}
                   alt="Alex Morgan"
                   width={132}
                   height={132}
